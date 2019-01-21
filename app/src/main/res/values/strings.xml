@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SaturdayChallange</string>
+    <string name="hint_name">Full Name</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="btn_sign_up">"Sign Up"</string>
+    <string name="btn_sign_in">Log In</string>
+    <string name="lco_logo">LCO LOGO</string>
+    <string name="new_here">"New Here ? " </string>
+    <string name="already_registered">"Already Registered ? "</string>
+</resources>
