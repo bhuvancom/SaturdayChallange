@@ -31,7 +31,7 @@
             app:hintEnabled="true">
 
             <EditText
-                android:drawableStart="@drawable/ic_email_black_24dp"
+                android:drawableStart="@drawable/ic_account_box_black_24dp"
                 android:drawablePadding="4dp"
                 android:id="@+id/input_email"
                 android:layout_width="match_parent"
