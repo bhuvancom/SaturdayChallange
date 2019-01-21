@@ -1,10 +1,12 @@
 package com.newware.saturdaychallange;
 /**
-        Saturday Coding Challenge : Make Android Logo Page
+ * Saturday Coding Challenge : Make Android Logo Page
+ * #3 Android Login-Signup challenge
  **/
+
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.TextView;
 
@@ -23,7 +25,7 @@ public class MainActivity extends AppCompatActivity
             @Override
             public void onClick(View v)
             {
-                startActivity(new Intent(MainActivity.this,SignUpActivity.class));
+                startActivity(new Intent(MainActivity.this, SignUpActivity.class));
             }
         });
     }
