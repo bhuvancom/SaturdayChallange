@@ -14,8 +14,8 @@
         tools:context=".MainActivity">
 
         <ImageView
-            android:layout_width="150dp"
-            android:layout_height="150dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
             android:layout_gravity="center"
             android:contentDescription="@string/lco_logo"
             android:padding="4dp"
@@ -66,6 +66,7 @@
             android:layout_height="wrap_content"
             app:counterMaxLength="10"
             app:hintAnimationEnabled="true"
+            app:counterEnabled="true"
             app:hintEnabled="true">
 
             <EditText
@@ -76,6 +77,7 @@
                 android:layout_height="wrap_content"
                 android:hint="@string/contact_number"
                 android:inputType="phone"
+                android:maxLength="10"
                 android:textColorHint="@color/hint" />
         </android.support.design.widget.TextInputLayout>
 
@@ -86,7 +88,6 @@
             app:counterEnabled="true"
             app:hintAnimationEnabled="true"
             app:hintEnabled="true">
-
             <EditText
                 android:drawableStart="@drawable/ic_lock_black_24dp"
                 android:drawablePadding="4dp"
